@@ -1,0 +1,17 @@
+{
+  "candidates": [
+    {
+      "candidate_name": "Asha Rao",
+      "contact": {
+        "email": "asha@example.com",
+        "mobile": "+1 415 555 2671"
+      },
+      "profile": {
+        "current_company": "Eightfold AI",
+        "country": "IN",
+        "skills": ["Java Script", "Python"]
+      }
+    }
+  ]
+}
+

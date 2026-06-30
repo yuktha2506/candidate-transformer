@@ -1,0 +1,9 @@
+pydantic
+pandas
+pdfplumber
+phonenumbers
+email-validator
+pycountry
+python-dateutil
+pytest
+

@@ -1,0 +1,20 @@
+{
+  "default_phone_region": "US",
+  "output_file": "candidate_profile.json",
+  "missing_value_policy": "null",
+  "include_confidence": true,
+  "include_provenance": true,
+  "fields": [
+    {"path": "candidate_id", "from": "candidate_id"},
+    {"path": "primary_email", "from": "emails[0]"},
+    {"path": "emails", "from": "emails"},
+    {"path": "phones", "from": "phones"},
+    {"path": "full_name", "from": "name"},
+    {"path": "linkedin", "from": "linkedin"},
+    {"path": "github", "from": "github"},
+    {"path": "current_company", "from": "current_company"},
+    {"path": "title", "from": "title"},
+    {"path": "skills", "from": "skills"},
+    {"path": "country", "from": "country"}
+  ]
+}
