@@ -1,7 +1,5 @@
 from __future__ import annotations
-
 from typing import Any
-
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, field_validator
 
 from normalizers.country import normalize_country
