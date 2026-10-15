@@ -16,5 +16,4 @@
     {"path": "title", "from": "title"},
     {"path": "skills", "from": "skills"},
     {"path": "country", "from": "country"}
-  ]
-}
+  ]}
