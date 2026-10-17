@@ -1,7 +1,5 @@
 from __future__ import annotations
-
 from dateutil import parser
-
 from canonical.schema import NormalizedValue
 
 
