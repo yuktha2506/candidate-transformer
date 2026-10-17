@@ -2,7 +2,6 @@ from normalizers.email import normalize_email
 from normalizers.phone import normalize_phone
 from normalizers.skills import normalize_skill, normalize_skills
 
-
 def test_phone_normalization_to_e164():
     result = normalize_phone("(415) 555-2671", default_region="US")
     assert result.value == "+14155552671"
