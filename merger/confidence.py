@@ -1,7 +1,5 @@
 from __future__ import annotations
-
 from canonical.schema import SOURCE_RELIABILITY, NormalizedRecord
-
 
 FIELD_WEIGHTS = {
     "name": 1.0,
