@@ -1,7 +1,5 @@
 from __future__ import annotations
-
 from typing import Any, Mapping, Protocol
-
 from canonical.schema import MergedProvenance, ProvenanceEntry
 
 
