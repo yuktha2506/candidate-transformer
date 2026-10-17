@@ -1,7 +1,6 @@
 from canonical.schema import NormalizedRecord, NormalizedValue
 from merger.conflict_resolution import choose_field, merge_group
 
-
 def record(source_type: str, value: str, order: int = 0) -> NormalizedRecord:
     return NormalizedRecord(
         source_type=source_type,
