@@ -1,7 +1,6 @@
 from canonical.schema import CanonicalProfile
 from projection.projector import project_profile
 
-
 def test_projection_selects_and_renames_fields():
     profile = CanonicalProfile(
         candidate_id="abc",
