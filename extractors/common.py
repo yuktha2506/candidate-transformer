@@ -1,9 +1,7 @@
 from __future__ import annotations
-
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-
 from canonical.schema import RawRecord, SourceType
 from provenance.provenance import make_provenance
 
