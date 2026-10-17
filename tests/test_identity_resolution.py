@@ -1,7 +1,6 @@
 from canonical.schema import NormalizedRecord, NormalizedValue
 from merger.identity_resolution import group_records, identity_key
 
-
 def record(fields: dict, order: int = 0) -> NormalizedRecord:
     return NormalizedRecord(
         source_type="recruiter_csv",
