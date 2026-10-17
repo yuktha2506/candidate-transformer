@@ -1,7 +1,5 @@
 from __future__ import annotations
-
 from canonical.schema import NormalizedValue
-
 
 def normalize_name(value: object) -> NormalizedValue:
     if value is None:
