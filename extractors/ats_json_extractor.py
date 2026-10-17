@@ -7,7 +7,6 @@ from typing import Any
 from canonical.schema import RawRecord
 from extractors.common import build_raw_record
 
-
 def _flatten_candidate(data: dict[str, Any]) -> dict[str, Any]:
     flattened = dict(data)
     contact = flattened.pop("contact", None)
